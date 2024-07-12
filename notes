@@ -1,0 +1,35 @@
+01 basicreact shortcurt = npx create-react-app 01basicreact
+
+01 vitereact shortcurt = npm create vite@latest 01vitereact
+
+ls means= list
+cd .. = folder reverse
+
+
+
+01basic = npm run start   =  live server active
+
+01vitereact = npm run dev   =  live server active
+
+02counter project = npm run dev = live server active
+
+
+npm i = node package manager install
+
+tailwindcss install shortcut = npm install -D tailwindcss postcss autoprefixer
+
+tailwindconfig file shortcut = npx tailwindcss init -p
+
+
+
+
+project start shortcut
+
+npm create vite@latest = project name       =first step
+
+npm i                                       = second step
+
+npm install -D tailwindcss postcss autoprefixer   = third step
+npx tailwindcss init -p
+
+npm run dev                              = fourth step

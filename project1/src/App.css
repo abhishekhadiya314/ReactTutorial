@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+}
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+button {
+  all: unset;
+  padding: 6px 16px;
+
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+.container{
+  /* border: 2px solid black; */
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.logo{
+  width: 76px;
+  height: 42.75px;
+  margin-top: 15px;
+  margin-left: 85px;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  
+}
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+  margin-top: 152px;
+  margin-left: 157px;
+  /* border: 2px solid black; */
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.hero h1 {
+font-weight: 800; 
+font-size: 108px;
+line-height: 102px;
+}
+.hero p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 400px;
+  color: var(--gray);
+}
+.hero-btn {
+  display: flex  ;
+  gap: 40px;
+}
+.hero-btn button {
+  font-size: 24px;
+  height: 41px;
+  width: 141px;
+}
+.secondary-btn {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray; 
+}
+.shopping {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+.brand-icon {
+  display: flex;
+  gap: 16px;
+}

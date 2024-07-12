@@ -1,0 +1,16 @@
+.context_section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.context_section h1 {
+font-weight: 800;
+font-size: 48px;
+line-height: 72px;
+/* margin-top: 140px; */
+/* margin-left: 188px; */
+
+}
+.context_section p {
+    font-weight: 500;
+    
+    }
