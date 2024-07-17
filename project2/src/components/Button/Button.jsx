@@ -1,12 +1,14 @@
-import React from 'react'
-import { MdMessage } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
-import { HiMail } from "react-icons/hi";
-
-const Button = () => {
+import styles from "./Button.module.css";
+const Button = ({ isOutline, icon, text, ...rest }) => {
   return (
-    <div>Button</div>
-  )
-}
+    <button
+      {...rest}
+      className={isOutline ? styles.outline_btn : styles.primary_btn}
+    >
+      {icon}
+      {text}
+    </button>
+  );
+};
 
-export default Button
+export default Button;
